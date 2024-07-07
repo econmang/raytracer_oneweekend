@@ -23,9 +23,9 @@ Vec3 class created and aliased for colors and pixels. You can `inline` functions
 Review: the equation of a ray is $P(t)=A+tb$, where $P$ is a 3D point, $A$ is the ray origin, and $b$ is the ray direction. The parameter $t$ is a real number (double) that can be used to traverse the ray.
 
 Steps for calculating a ray to send through the viewport, pulled from the book:
-> Calculate the ray from the “eye” through the pixel,
-> Determine which objects the ray intersects, and
-> Compute a color for the closest intersection point.
+> 1. Calculate the ray from the “eye” through the pixel,<br>
+> 2. Determine which objects the ray intersects, and<br>
+> 3. Compute a color for the closest intersection point.
 
 ## Progress:
 4.2 Sending Rays Into the Scene
