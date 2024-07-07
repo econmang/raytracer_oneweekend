@@ -1,0 +1,3 @@
+/home/econm/Documents/personal/projects/graphics/ray_tracer/build/debug/CMakeFiles/RayTracer.dir
+/home/econm/Documents/personal/projects/graphics/ray_tracer/build/debug/CMakeFiles/edit_cache.dir
+/home/econm/Documents/personal/projects/graphics/ray_tracer/build/debug/CMakeFiles/rebuild_cache.dir
