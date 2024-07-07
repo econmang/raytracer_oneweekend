@@ -27,5 +27,15 @@ Steps for calculating a ray to send through the viewport, pulled from the book:
 > 2. Determine which objects the ray intersects, and<br>
 > 3. Compute a color for the closest intersection point.
 
+Aspect ratio is the ratio of the width to the height ($\text{width}/\text{height}$).
+The viewport is the digital rectangle through which our rays pass. Essentially the visible area of the scene.
+
+The camera center is a point in 3D space where all rays originate (commonly called the *eye point*).
+The vector from the camera center to the viewport center will be orthogonal to the viewport.
+The distance from the camera center to the viewport is the *focal length*.
+
+This creates some conflict since the viewport is using traditional coordinates, but the image coordinates start from the top left corner.
+To help navigate the pixel grid, we'll use $\vec{u}$ from the left to right edge and $\vec{v}$ from the top to the bottom edge.
+
 ## Progress:
 4.2 Sending Rays Into the Scene
