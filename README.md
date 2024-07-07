@@ -7,9 +7,12 @@ The book can be found and followed here: [_Ray Tracing in One Weekend_](https://
 
 # Notes
 
-## Chapter 2
+## Chapter 2 
 
 PPM files are a really simple image format. First line is a header (P3 meaning colors are in ASCII), then the height and width, and then a list of RGB values for each pixel.
+
+`cmake -B` is the generate step and generates all targets specified by `CMakeLists.txt`
+`cmake --build` is the build step that calls the C++ compiler
 
 ## Chapter 3
 
@@ -19,5 +22,10 @@ Vec3 class created and aliased for colors and pixels. You can `inline` functions
 
 Review: the equation of a ray is $P(t)=A+tb$, where $P$ is a 3D point, $A$ is the ray origin, and $b$ is the ray direction. The parameter $t$ is a real number (double) that can be used to traverse the ray.
 
+Steps for calculating a ray to send through the viewport, pulled from the book:
+> Calculate the ray from the “eye” through the pixel,
+> Determine which objects the ray intersects, and
+> Compute a color for the closest intersection point.
+
 ## Progress:
-Just made it to 4. Rays, a simple camera, and background
+4.2 Sending Rays Into the Scene
