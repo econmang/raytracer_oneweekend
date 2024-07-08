@@ -52,7 +52,7 @@ Since this is a quadratic equation, we can solve it with the quadratic formula: 
 
 Review: The discriminant is the part of the quadratic formula under the square root.
 
-If the discriminant is positive there are two real solutions, if zero there is one real solutions, if negative there are no real solutions.
+If the discriminant is positive there are two real solutions, if zero there is one real solution, if negative there are no real solutions.
 
 ## Progress:
 6.1 Shading with Surface Normals
