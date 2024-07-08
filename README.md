@@ -48,6 +48,11 @@ Then, since $\vec{P}(t)$ is our ray equation, and $\vec{P}(t) = \vec{Q}+t\vec{d}
 
 Solving for $t$, we get: $$(-t\vec{d}+(\vec{C}-\vec{Q})\cdot(-t\vec{d}+(\vec{C}-\vec{Q})))=r^2 \rightarrow \boxed{t^2\vec{d}\cdot \vec{d} - 2t\vec{d}\cdot(\vec{C}-\vec{Q})+(\vec{C}-\vec{Q})\cdot(\vec{C}-\vec{Q})-r^2=0}$$
 
+Since this is a quadratic equation, we can solve it with the quadratic formula: $$\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$ where: $$a=\vec{d}\cdot\vec{d}$$ $$b=-2\vec{d}\cdot(\vec{C}-\vec{Q})$$ $$c=(\vec{C}-\vec{Q})\cdot(\vec{C}-\vec{Q})-r^2$$
+
+Review: The discriminant is the part of the quadratic formula under the square root.
+
+If the discriminant is positive there are two real solutions, if zero there is one real solutions, if negative there are no real solutions.
 
 ## Progress:
-5.2 Creating Our First Ray traced Image
+6.1 Shading with Surface Normals
