@@ -16,6 +16,9 @@
 *.dylib
 *.dll
 
+# Images
+*.ppm
+
 # Fortran module files
 *.mod
 *.smod
@@ -30,6 +33,9 @@
 *.exe
 *.out
 *.app
+
+# Ignore Build
+build/*
 
 CMakeLists.txt.user
 CMakeCache.txt
