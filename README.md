@@ -39,8 +39,8 @@ To help navigate the pixel grid, we'll use $\vec{u}$ from the left to right edge
 
 ## Chapter 5
 
-Review: Equation for a sphere: $x^2+y^2+z^2=r^2$.
-Similarly, we can define a sphere centered at an arbitrary point $(C_x, C_y, C_z)$ as $(C_x-x)^2+(C_y-y)^2+(C_z-z)^2 = r^2$.
+Review: Equation for a sphere: $x^2+y^2+z^2=r^2$.<br>
+Similarly, we can define a sphere centered at an arbitrary point $(C_x, C_y, C_z)$ as: $$(C_x-x)^2+(C_y-y)^2+(C_z-z)^2 = r^2$$
 
 
 
