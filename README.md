@@ -46,7 +46,7 @@ Given that we want most items to be defined as vectors for ease of use, programm
 
 Then, since $\vec{P}(t)$ is our ray equation, and $\vec{P}(t) = \vec{Q}+t\vec{d}$, we can substitute that in to get: $$(\vec{C}-(\vec{Q}+t\vec{d}) \cdot \vec{C}-(Q+t\vec{d}))=r^2$$
 
-Solving for $t$, we get: $$\displaylines{(-t\vec{d}+(\vec{C}-\vec{Q})\cdot(-t\vec{d}+(\vec{C}-\vec{Q})))=r^2 \\ \rightarrow t^2\vec{d}\cdot \vec{d} - 2t\vec{d}\cdot(\vec{C}-\vec{Q})+(\vec{C}-\vec{Q})\cdot(\vec{C}-\vec{Q})-r^2=0}$$
+Solving for $t$, we get: $$(-t\vec{d}+(\vec{C}-\vec{Q})\cdot(-t\vec{d}+(\vec{C}-\vec{Q})))=r^2 \rightarrow \boxed{t^2\vec{d}\cdot \vec{d} - 2t\vec{d}\cdot(\vec{C}-\vec{Q})+(\vec{C}-\vec{Q})\cdot(\vec{C}-\vec{Q})-r^2=0}$$
 
 
 ## Progress:
