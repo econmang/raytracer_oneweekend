@@ -11,7 +11,7 @@ The book can be found and followed here: [_Ray Tracing in One Weekend_](https://
 
 PPM files are a really simple image format. First line is a header (P3 meaning colors are in ASCII), then the height and width, and then a list of RGB values for each pixel.
 
-`cmake -B` is the generate step and generates all targets specified by `CMakeLists.txt`
+`cmake -B` is the generate step and generates all targets specified by `CMakeLists.txt`<br>
 `cmake --build` is the build step that calls the C++ compiler
 
 ## Chapter 3
@@ -42,7 +42,7 @@ To help navigate the pixel grid, we'll use $\vec{u}$ from the left to right edge
 Review: Equation for a sphere: $x^2+y^2+z^2=r^2$.<br>
 Similarly, we can define a sphere centered at an arbitrary point $(C_x, C_y, C_z)$ as: $$(C_x-x)^2+(C_y-y)^2+(C_z-z)^2 = r^2$$
 
-
+Given that we want most items to be defined as vectors for ease of use, programmatically, we can rewrite the sphere equation as: $$(\vec{C}\cdot\vec{P}(t))^2=r^2$$
 
 ## Progress:
 4.2 Sending Rays Into the Scene
