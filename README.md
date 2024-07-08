@@ -37,5 +37,12 @@ The distance from the camera center to the viewport is the *focal length*.
 This creates some conflict since the viewport is using traditional coordinates, but the image coordinates start from the top left corner.
 To help navigate the pixel grid, we'll use $\vec{u}$ from the left to right edge and $\vec{v}$ from the top to the bottom edge.
 
+## Chapter 5
+
+Review: Equation for a sphere: $x^2+y^2+z^2=r^2$.
+Similarly, we can define a sphere centered at an arbitrary point $(C_x, C_y, C_z)$ as $(C_x-x)^2+(C_y-y)^2+(C_z-z)^2 = r^2$.
+
+
+
 ## Progress:
 4.2 Sending Rays Into the Scene
