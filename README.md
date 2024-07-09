@@ -54,5 +54,9 @@ Review: The discriminant is the part of the quadratic formula under the square r
 
 If the discriminant is positive there are two real solutions, if zero there is one real solution, if negative there are no real solutions.
 
+## Chapter 6
+
+The surface normal vector is the vector perpendicular to the surface of an object at the point of intersection.
+
 ## Progress:
 6.1 Shading with Surface Normals
