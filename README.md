@@ -58,5 +58,6 @@ If the discriminant is positive there are two real solutions, if zero there is o
 
 The surface normal vector is the vector perpendicular to the surface of an object at the point of intersection.
 
+
 ## Progress:
 6.1 Shading with Surface Normals
