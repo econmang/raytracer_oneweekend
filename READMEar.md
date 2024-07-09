@@ -58,6 +58,5 @@ If the discriminant is positive there are two real solutions, if zero there is o
 
 The surface normal vector is the vector perpendicular to the surface of an object at the point of intersection.
 
-
 ## Progress:
-6.2 Simplifying the Ray-Sphere Intersection Code
+6.4 Front Faces Versus Back Faces
