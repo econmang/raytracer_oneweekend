@@ -60,4 +60,4 @@ The surface normal vector is the vector perpendicular to the surface of an objec
 
 
 ## Progress:
-6.1 Shading with Surface Normals
+6.2 Simplifying the Ray-Sphere Intersection Code
