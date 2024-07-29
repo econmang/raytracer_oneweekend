@@ -57,6 +57,17 @@ If the discriminant is positive there are two real solutions, if zero there is o
 ## Chapter 6
 
 The surface normal vector is the vector perpendicular to the surface of an object at the point of intersection.
+We can simplify the hit function by considering the case where $b=-2h$. Then the discriminant is: 
+$$\displaylines{\frac{-b \pm \sqrt{b^2-4ac}}{2a} \\ \frac{-(2h) \pm \sqrt{(-2h)^2 - 4ac}}{2a} \\ \frac{2h \pm 2\sqrt{h^2-ac}}{a}}$$
+Which we can further simplify to solve for $h$, yielding:
+$$\displaylines{b = -2d \cdot (\vec{C}-\vec{Q}) \\ b = -2h \\ h = \frac{b}{-2} = \vec{d} \cdot (\vec{C}-\vec{Q})}$$
+
+We can create a hittable abstraction (ostensibly an interface) to create a common framework for all objects interacting with light in the scene.
+This can then be implemented on an object (i.e. a sphere class can be created implementing `hittable`).
+
+We can also make a decision as to the direction of the normal vector. If the ray is coming from inside the sphere, the normal vector should point inwards. Alternatively, if the ray is coming from outside the sphere, the normal vector should point outwards. This decision is important for objects that can have different sides or an inside and outside to be hit by the ray (i.e. glass spheres).
+
+Assume we want the normal vectors to point outwards. We can use the dot product of the ray direction and the normal vector to determine if the ray is coming from inside or outside the sphere.
 
 ## Progress:
-6.4 Front Faces Versus Back Faces
+6.6 Some New C++ Features
